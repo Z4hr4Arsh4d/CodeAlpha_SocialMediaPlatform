@@ -1,0 +1,34 @@
+{
+  "name": "codealpha_socialmediaplatform",
+  "version": "1.0.0",
+  "description": "CodeAlpha Task 2 — Social Media Platform (Express + SQLite)",
+  "main": "server.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "seed": "node src/seed.js",
+    "reset": "node src/seed.js --force",
+    "test": "node --test tests/api.test.js"
+  },
+  "keywords": [
+    "social",
+    "express",
+    "sqlite",
+    "codealpha"
+  ],
+  "author": "Zahra Arshad",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "better-sqlite3": "^13.0.3",
+    "connect-sqlite3": "^0.9.18",
+    "express": "^5.2.1",
+    "express-session": "^1.19.0"
+  },
+  "type": "commonjs",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
